@@ -161,6 +161,9 @@ hr {
 .footer .ul{
     padding-inline-start: 0px;
 }
+.footer .mm{
+    padding-inline-start: 0px;
+}
 .footer .footer-header{
     font-weight: bold;
     font-size:large;

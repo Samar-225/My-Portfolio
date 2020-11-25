@@ -33,6 +33,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 0.5rem;
+    margin:0.5rem o.5rem;
     
 }
 
@@ -100,12 +101,18 @@ hr {
 /* header */
 
 .hero {
-    padding: 2rem;
+    padding: 0.5rem;
 
 }
 
 .hero .hero-img {
     max-width: 550px;
+    display: block;
+    margin: auto
+}
+
+.hero .hero-img1 {
+    max-width: 350px;
     display: block;
     margin: auto
 }
@@ -157,3 +164,52 @@ hr {
     font-weight: bold;
     font-size:large;
 }
+
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+
+  /* a1:hover {
+    
+    font-size: 101%;
+  } */
+
+  a:hover{
+      
+      font-size: 99%;
+      opacity: 0.8; 
+     }

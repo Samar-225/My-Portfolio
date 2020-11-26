@@ -172,20 +172,17 @@ hr {
     
 }
 
-
-
-
-
-  
-  
-  
-
+.footer .i1{
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0.2rem;
+    color:black;
+}
   /* a1:hover {
     
     font-size: 101%;
   } */
 
-  a:hover{
+a:hover{
       
       font-size: 99%;
       opacity: 0.8; 
@@ -195,5 +192,6 @@ hr {
         unicode-bidi:none;
         font-variant-numeric: none;
         text-transform: none;
-        color: var(--primary-color);
-    }
+        color:var(--primary-color);
+}
+ 
